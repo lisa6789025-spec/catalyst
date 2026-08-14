@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="site-nav">
           <nav className="nav-inner wrap">
-            <a href="/" className="brand">Catalyst</a>
+            <a href="/" className="brand" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v5.5L5.7 16a2.5 2.5 0 0 0 2.3 3.7h8a2.5 2.5 0 0 0 2.3-3.7L14 8.5V3"/><path d="M13 6l-3 4.5h4L11 15"/></svg>Catalyst</a>
             <div className="nav-links">
               <a href="/#how">How it works</a>
               <a href="/#features">Why</a>
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <footer className="site-footer">
           <div className="wrap footer-inner">
-            <span className="footer-brand">Catalyst</span>
+            <span className="footer-brand" style={{ display: "inline-flex", alignItems: "center", gap: 7 }}><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v5.5L5.7 16a2.5 2.5 0 0 0 2.3 3.7h8a2.5 2.5 0 0 0 2.3-3.7L14 8.5V3"/><path d="M13 6l-3 4.5h4L11 15"/></svg>Catalyst</span>
             <span className="footer-tag">written between the lines, sent as your own</span>
             <div className="footer-links">
               <a href="/#how">How it works</a>
